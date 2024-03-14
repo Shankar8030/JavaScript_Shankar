@@ -1,0 +1,96 @@
+                                    History of JavaScript
+
+                                    Brendan Eich first developed JavaScript
+                                    in about ten days in May 1995
+           In older versions of JavaScript, variables were declared using the "var" keyword:
+
+                                            var x = 10;
+          In the latest version of JavaScript, you can also use “const” to declare variables
+          
+                                            let x = 10; 
+                                            const y = 20; 
+
+@function
+function add(a,b){
+    return a +b;
+}
+
+@Arrow function
+let sum = (a,b)=> a+b
+
+1. JavaScript innerHTML Property
+
+document.getElementById("id").innerHTML;
+
+  
+      <p id="GFG"></p>
+ 
+    <!-- Script to use innerHTML -->
+    <script>
+        document.getElementById("GFG").innerHTML 
+              = "Hello Geeks!";
+    </script>
+
+2. JavaScript console.log() Method
+
+console.log()
+
+   
+    <!-- Script to use console.log() -->
+    <script>
+        console.log("Hello Geeks!");
+    </script>
+</body>
+
+3. JavaScript document.write() Method
+
+document.write();
+
+    <script>
+        document.write("Hello Geeks!");
+    </script>
+
+4. JavaScript window.alert() Method
+
+window.alert();
+
+<script>
+        window.alert("Hello Geeks!");
+    </script>
+
+5. JavaScript window.print() Method
+
+window.print();
+
+ <button onclick="window.print()">
+          Click here to Print
+      </button>
+
+6. JavaScript window.prompt() Method
+
+window.prompt();
+
+ <script>
+        let userInput = window.prompt("Please Enter your Input");
+ 
+        if (userInput !== null) {
+            window.alert("Hello, " + userInput + "!");
+        } else {
+            window.alert("You clicked Cancel or closed the prompt.");
+        }
+    </script>
+
+--> Multi-line Comments
+    /*    
+This is a multiline comment   
+It can span multiple lines    
+*/
+
+// Single Line Comments
+
+JavaScript Ternary Operator
+
+condition ? trueExpression : falseExpression
+
+Input: let result = (10 > 0) ? true : false;
+Output: true
